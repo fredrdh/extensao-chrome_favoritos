@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: large;
+}
+
+main {
+  min-width: 300px;
+  margin: 30px;
+}
+
+.secAdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 10px auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: mediumslateblue;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+
+}
+
+ul {
+  padding: 5px;
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+hr {
+  width: 100%;
+}
+
+
